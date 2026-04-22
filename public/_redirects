@@ -1,0 +1,43 @@
+# Cloudflare Pages redirects
+# Format: source destination status
+
+# Legacy path redirects
+/docs       /           301
+/port-inc   /projects   301
+/dev-log    /blog       301
+
+# Old homepage paths
+/about              /           301
+/prod               /           301
+/app                /           301
+/app/index.html     /           301
+/users              /           301
+/admin/index.html   /admin      301
+
+# Downloads
+/downloads/marketing-guide  /   301
+
+# Blog tag/category pages (removed in current site)
+/blog/tags          /blog       301
+/blog/categories    /blog       301
+/blog/tag/*         /blog       301
+/blog/category/*    /blog       301
+
+# Renamed blog post
+/blog/optimizing-react-performance  /blog/modern-website-architecture-seo-optimization  301
+
+# Archived blog posts
+/blog/webflow-for-developers  /blog  301
+
+# Removed project module pages
+/projects/modules/*     /projects   301
+
+# Archived projects
+/projects/canticolo     /projects   301
+
+# Old truncated project slugs
+/projects/project-zero  /projects   301
+/projects/project-omega /projects   301
+
+# Old domain path prefix (from AWS redirect era)
+/jeffknowlesjr.com/*   /           301
